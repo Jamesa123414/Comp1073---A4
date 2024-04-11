@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <p id="student-info"></p>
+        
+        <form id="weather-form">
+            <div class="input-group">
+                <input type="text" id="city-input" placeholder="Enter a city" required>
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <datalist id="city-suggestions"></datalist>
+        </form>
+
+        <div id="weather-info"></div>
+        <div id="error-msg"></div>
+    </div>
+
+    <footer>
+        <p>Tutorial followed: <a href="https://openweathermap.org/current" target="_blank">https://openweathermap.org/current</a></p>
+    </footer>
+</body>
+</html>
